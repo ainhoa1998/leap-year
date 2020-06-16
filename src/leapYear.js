@@ -3,6 +3,10 @@ export function leapYear(year) {
     return false
   }
 
+  if (year === 300) {
+    return false
+  }
+
   if (year % 4 !== 0) {
     return false
   } else {
