@@ -6,4 +6,10 @@ describe('Leap Year Kata', () => {
 
     expect(result).toBe(false)
   })
+
+  it('El año 4 es bisiesto', () => {
+    const result = leapYear(4)
+
+    expect(result).toBe(true)
+  })
 })
