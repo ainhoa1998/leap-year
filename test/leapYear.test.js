@@ -60,4 +60,10 @@ describe('Kata año bisiesto', () => {
 
     expect(isLeap).toBe(true)
   })
+
+  it('Si el año es 800, devuelve true', () => {
+    const isLeap = leapYear(800)
+
+    expect(isLeap).toBe(true)
+  })
 })
