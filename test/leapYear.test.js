@@ -42,4 +42,10 @@ describe('Kata año bisiesto', () => {
 
     expect(isLeap).toBe(false)
   })
+
+  it('Devuelve si el año 200 es bisiesto', () => {
+    const isLeap = leapYear(200)
+
+    expect(isLeap).toBe(false)
+  })
 })
