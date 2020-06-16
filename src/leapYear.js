@@ -1,5 +1,5 @@
 export function leapYear(year) {
-  if (year === 4 || year === 8 || year === 12) {
+  if (year % 4 === 0) {
     return true
   }
 
