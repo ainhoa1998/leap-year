@@ -1,3 +1,5 @@
+import { leapYear } from '../src/leapYear'
+
 describe('Kata año bisiesto', () => {
   it('Devuelve si el año 1 es bisiesto', () => {
     const isLeap = leapYear(1)
@@ -5,7 +7,3 @@ describe('Kata año bisiesto', () => {
     expect(isLeap).toBe(false)
   })
 })
-
-function leapYear() {
-  return false
-}
