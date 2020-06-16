@@ -1,10 +1,10 @@
 export function leapYear(year) {
   return (
-    (isYearDivisibleBy(year, 4) && !isYearDivisibleBy(year, 100)) ||
-    isYearDivisibleBy(year, 400)
+    (isYearDivisibleByValue(year, 4) && !isYearDivisibleByValue(year, 100)) ||
+    isYearDivisibleByValue(year, 400)
   )
 }
 
-function isYearDivisibleBy(year, value) {
+function isYearDivisibleByValue(year, value) {
   return year % value === 0
 }
