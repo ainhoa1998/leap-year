@@ -1,49 +1,49 @@
 import { leapYear } from '../src/leapYear'
 
 describe('Kata año bisiesto', () => {
-  it('Devuelve si el año 1 es bisiesto', () => {
+  it('Si el año es 1, devuelve false', () => {
     const isLeap = leapYear(1)
 
     expect(isLeap).toBe(false)
   })
 
-  it('Devuelve si el año 2 es bisiesto', () => {
+  it('Si el año es 2, devuelve false', () => {
     const isLeap = leapYear(2)
 
     expect(isLeap).toBe(false)
   })
 
-  it('Devuelve si el año 3 es bisiesto', () => {
+  it('Si el año es 3, devuelve false', () => {
     const isLeap = leapYear(3)
 
     expect(isLeap).toBe(false)
   })
 
-  it('Devuelve si el año 4 es bisiesto', () => {
+  it('Si el año es 4, devuelve true', () => {
     const isLeap = leapYear(4)
 
     expect(isLeap).toBe(true)
   })
 
-  it('Devuelve si el año 8 es bisiesto', () => {
+  it('Si el año es 8, devuelve true', () => {
     const isLeap = leapYear(8)
 
     expect(isLeap).toBe(true)
   })
 
-  it('Devuelve si el año 12 es bisiesto', () => {
+  it('Si el año es 12, devuelve true', () => {
     const isLeap = leapYear(12)
 
     expect(isLeap).toBe(true)
   })
 
-  it('Devuelve si el año 100 es bisiesto', () => {
+  it('Si el año es 100, devuelve false', () => {
     const isLeap = leapYear(100)
 
     expect(isLeap).toBe(false)
   })
 
-  it('Devuelve si el año 200 es bisiesto', () => {
+  it('Si el año es 200, devuelve false', () => {
     const isLeap = leapYear(200)
 
     expect(isLeap).toBe(false)
